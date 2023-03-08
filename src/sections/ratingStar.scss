@@ -1,0 +1,29 @@
+.starBar {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    flex-direction: row-reverse;
+}
+
+.starBar input {
+    display: none;
+}
+
+.starBar > label {
+    margin: 0 1px 0 1px;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    color: $c-brightred;
+    font-family: "Font Awesome 6 Free";
+}
+
+.starBar label::before {
+    content: '\f005';
+    font-weight: 400;
+}
+
+.starBar input:checked ~ label:before {
+    content:'\f005';
+    font-weight: 900;
+}
