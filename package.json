@@ -7,7 +7,8 @@
     "sass": "sass --no-source-map src/main.scss static/main.css",
     "watch": "sass --no-source-map --watch src/main.scss static/main.css",
     "start": "node index.js",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "type": "module",
   "author": "",
