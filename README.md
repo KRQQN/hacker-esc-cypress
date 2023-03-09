@@ -5,5 +5,5 @@
 * npm run start 
 * npm run cypress:open
 
-prova gärna npm run cy:run också.
-den failar andra i terminal men via cypress:open får den ok.
+## null-GUI
+* npm run cy:run
